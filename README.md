@@ -19,11 +19,11 @@ We provide a combined ENCODE set that you can use as a background set.
 
 You need to run the script in bash shell, and you also need to have R installed, as well as Rscript that needs to be installed in the PATH folder /usr/bin/Rscript
 
-Example of usage: 
+# Example 
 
 Run ./fishertest.sh with the three file names as subsequent multiple arguments
 
-Example output:
+# Example output:
 
 ./fishertest.sh file1.bed file2.bed background.bed
 
