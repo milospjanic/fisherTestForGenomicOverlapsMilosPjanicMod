@@ -15,7 +15,7 @@ As genomic background you can use e.g. combined ENCODE set of open chromatin reg
 
 We provide a combined ENCODE DHS data set in a bed file which you can use as a background set, background.bed.
 
-# Dependancies
+# Dependencies
 
 You need to run the script in bash shell, and you also need to have R installed, as well as Rscript that needs to be installed in the PATH folder /usr/bin/Rscript
 
