@@ -1,6 +1,7 @@
 #intersecting with bedtools
 bedtools intersect -a $1 -b $3 > A_BG
 bedtools intersect -a $2 -b $3 > B_BG
+
 bedtools intersect -wa -a A_BG -b B_BG | uniq > A_B_BG
 bedtools intersect -wa -a B_BG -b A_BG | uniq > B_A_BG
 bedtools intersect -v -a A_BG -b A_B_BG | uniq > A_BG_noB
