@@ -27,6 +27,7 @@ Run ./fishertest.sh with the three file names as subsequent multiple arguments
 
 ./fishertest.sh file1.bed file2.bed background.bed
 
+
 Number of uniq A overlapping B in genomic background
 275
 
@@ -43,7 +44,6 @@ Number of genomic background not overlapping A or B
 2233270
 
 List of 7
- 
  $ p.value    : num 9.42e-85
  
  $ conf.int   : atomic [1:2] 3.9 5.01
@@ -59,5 +59,5 @@ List of 7
  
  $ method     : chr "Fisher's Exact Test for Count Data"
  
- $ data.name  : chr "AHR_TCF21"
+ $ data.name  : chr "A_B"
  - attr(*, "class")= chr "htest"
