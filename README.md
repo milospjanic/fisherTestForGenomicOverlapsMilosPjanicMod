@@ -61,5 +61,4 @@ List of 7
  
  $ method     : chr "Fisher's Exact Test for Count Data"
  
- $ data.name  : chr "A_B"
- - attr(*, "class")= chr "htest"
+ $ data.name  : chr "A_B" - attr(*, "class")= chr "htest"
