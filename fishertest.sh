@@ -40,3 +40,4 @@ rm B_A_BG
 rm A_BG_noB
 rm B_BG_noA
 rm BG_noA_noB
+rm script.r
