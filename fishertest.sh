@@ -24,13 +24,13 @@ wc -l BG_noA_noB | cut -f1 -d ' '
 
 #cat commands_fisher_R
 echo "#!/usr/bin/Rscript
-AHR_TCF21  <-
+A_B  <-
 matrix(c($(wc -l A_B_BG | cut -f1 -d ' '), $(wc -l A_BG_noB | cut -f1 -d ' '), $(wc -l B_BG_noA | cut -f1 -d ' '), $(wc -l BG_noA_noB | cut -f1 -d ' ')),
        nrow = 2,
        dimnames = list(Guess = c(\"b+\", \"b-\"),
                        Truth = c(\"a+\", \"a-\")))
 
-AHR_TCF21.fisher <- fisher.test(AHR_TCF21)
-str(AHR_TCF21.fisher)" > script.r
+A_B.fisher <- fisher.test(A_B)
+str(A_B.fisher)" > script.r
 chmod 775 script.r
 ./script.r
