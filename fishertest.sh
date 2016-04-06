@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #intersecting with bedtools
 bedtools intersect -a $1 -b $3 > A_BG
 bedtools intersect -a $2 -b $3 > B_BG
