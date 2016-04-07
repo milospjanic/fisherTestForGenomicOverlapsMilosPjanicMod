@@ -51,7 +51,7 @@ sample estimates:
 
 odds ratio 4.777831
 
-/n
+\n
 List of 7
  
  $ p.value    : num 3.29e-118
