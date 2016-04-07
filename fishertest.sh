@@ -30,7 +30,6 @@ matrix(c($(wc -l A_B_BG | cut -f1 -d ' '), $(wc -l A_BG_noB | cut -f1 -d ' '), $
        nrow = 2,
        dimnames = list(Guess = c(\"b+\", \"b-\"),
                        Truth = c(\"a+\", \"a-\")))
-
 A_B.fisher <- fisher.test(A_B)
 print(A_B.fisher)
 str(A_B.fisher)" > script.r
