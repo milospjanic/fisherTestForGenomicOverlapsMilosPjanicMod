@@ -46,21 +46,26 @@ Number of genomic background not overlapping A or B
 
 2233270
 
+ Fisher's Exact Test for Count Data
+
+data:  A_B
+p-value < 2.2e-16
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 4.273316 5.327099
+sample estimates:
+odds ratio
+  4.777831
+
 List of 7
- 
- $ p.value    : num 9.42e-85
- 
- $ conf.int   : atomic [1:2] 3.9 5.01
+ $ p.value    : num 3.29e-118
+ $ conf.int   : atomic [1:2] 4.27 5.33
   ..- attr(*, "conf.level")= num 0.95
- 
- $ estimate   : Named num 4.43
+ $ estimate   : Named num 4.78
   ..- attr(*, "names")= chr "odds ratio"
- 
  $ null.value : Named num 1
   ..- attr(*, "names")= chr "odds ratio"
- 
  $ alternative: chr "two.sided"
- 
  $ method     : chr "Fisher's Exact Test for Count Data"
- 
- $ data.name  : chr "A_B" - attr(*, "class")= chr "htest"
+ $ data.name  : chr "A_B"
+ - attr(*, "class")= chr "htest"
