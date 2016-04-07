@@ -26,27 +26,18 @@ Run ./fishertest.sh with the three file names as subsequent multiple arguments
 # Example output
 ./fishertest.sh file1.bed file2.bed background.bed
 
-Number of uniq A overlapping B in genomic background
+Number of uniq A overlapping B in genomic background 275
 
-275
+Number of uniq B overlapping A in genomic background 273
 
-Number of uniq B overlapping A in genomic background
+Number of uniq A not overlapping B in genomic background 36885
 
-273
+Number of uniq B not overlapping A in genomic background 3757
 
-Number of uniq A not overlapping B in genomic background
+Number of genomic background not overlapping A or B 2233270
 
-36885
 
-Number of uniq B not overlapping A in genomic background
-
-3757
-
-Number of genomic background not overlapping A or B
-
-2233270
-
- Fisher's Exact Test for Count Data
+Fisher's Exact Test for Count Data
 
 data:  A_B
 
@@ -54,16 +45,13 @@ p-value < 2.2e-16
 
 alternative hypothesis: true odds ratio is not equal to 1
 
-95 percent confidence interval:
-
- 4.273316 5.327099
+95 percent confidence interval: 4.273316 5.327099
 
 sample estimates:
 
-odds ratio
+odds ratio 4.777831
 
-  4.777831
-
+\
 List of 7
  
  $ p.value    : num 3.29e-118
