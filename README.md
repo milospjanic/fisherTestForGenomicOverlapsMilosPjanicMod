@@ -11,9 +11,9 @@ To calculate Fisher p-value you would need three BED files:
 
 Note that file names do not have to be file1.bed, file2.bed, background.bed, this is just an example.
 
-As genomic background you can use e.g. combined ENCODE set of open chromatin regions or a similar data set. Genomic background is necessary to calculate the constituents of the Fisher test contingency matrix: overlap of A and B in the background BG set, A but not B in BG, B but not A in BG, BG without A and B. 
+As genomic background for the human genome you can use e.g. combined ENCODE set of open chromatin regions or a similar data set. Genomic background is necessary to calculate the constituents of the Fisher test contingency matrix: overlap of A and B in the background BG set, A but not B in BG, B but not A in BG, BG without A and B. 
 
-We provide a combined ENCODE DHS data set in a bed file which you can use as a background set, background.bed.
+We provide a combined ENCODE DHS data set in a bed file which you can use as a background set **IN HUMAN GENOME**, background.bed.
 
 # Dependencies
 
