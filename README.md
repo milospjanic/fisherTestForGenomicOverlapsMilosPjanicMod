@@ -15,6 +15,12 @@ As genomic background for the human genome you can use e.g. combined ENCODE set 
 
 We provide a combined ENCODE DHS data set in a bed file which you can use as a background set **in the human genome**, background.bed.
 
+#Comparison with Bedtools Fisher
+
+When comapered to Bedtools Fisher, our test gives less inflated p-values:
+
+And when compaered in a qq-plot to theoretical distribution of p-values, our observed p-values follow theoretical and show deviation from it near the end, as expeted.
+
 # Dependencies
 
 You need to run the script in bash shell, and you also need to have R installed, as well as Rscript that needs to be installed in the PATH folder /usr/bin/Rscript
