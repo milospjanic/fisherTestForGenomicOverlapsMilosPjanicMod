@@ -17,11 +17,11 @@ We provide a combined ENCODE DHS data set in a bed file which you can use as a b
 
 #Comparison with Bedtools Fisher
 
-When comapered to Bedtools Fisher, our test gives less inflated p-values:
+When comapered to Bedtools Fisher, our test gives less inflated p-values as seen in qqplot:
 
 ![alt text](https://github.com/milospjanic/fisher-test-for-genomic-overlaps/blob/master/qqplot.bedtools.fisher.png)
 
-And when compaered in a qq-plot to theoretical distribution of p-values, our observed p-values follow theoretical and show deviation from it near the end, as expeted.
+And when compaered to theoretical distribution of p-values, our observed p-values follow theoretical and show deviations from it near the end, as expected.
 
 ![alt text](https://github.com/milospjanic/fisher-test-for-genomic-overlaps/blob/master/qqplot.milos.fisher.png)
 
