@@ -19,7 +19,11 @@ We provide a combined ENCODE DHS data set in a bed file which you can use as a b
 
 When comapered to Bedtools Fisher, our test gives less inflated p-values:
 
+![alt text](https://github.com/milospjanic/fisher-test-for-genomic-overlaps/blob/master/qqplot.bedtools.png)
+
 And when compaered in a qq-plot to theoretical distribution of p-values, our observed p-values follow theoretical and show deviation from it near the end, as expeted.
+
+![alt text](https://github.com/milospjanic/fisher-test-for-genomic-overlaps/blob/master/qqplot.milos.png)
 
 # Dependencies
 
