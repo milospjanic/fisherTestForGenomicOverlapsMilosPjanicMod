@@ -15,7 +15,7 @@ As genomic background for the human genome you can use e.g. combined ENCODE set 
 
 We provide a combined ENCODE DHS data set in a bed file which you can use as a background set **in the human genome**, background.bed.
 
-#Comparison with Bedtools Fisher
+# Comparison with Bedtools Fisher
 
 When comapered to Bedtools Fisher, our test gives less inflated p-values as seen in qqplot:
 
